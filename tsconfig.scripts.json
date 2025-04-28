@@ -1,0 +1,14 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["./*"]
+      },
+      "module": "commonjs",
+      "target": "es6",
+      "noEmit": false
+    },
+    "include": ["scripts/**/*.ts"],
+    "exclude": ["node_modules"]
+  }
